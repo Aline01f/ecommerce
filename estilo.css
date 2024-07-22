@@ -1,0 +1,90 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,88,150,1) 22%, rgba(0,212,255,1) 100%);
+
+}
+
+header {
+  background-color: #409cc7;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.container p {
+  margin-bottom: 10px;
+}
+
+.ordered-items {
+  margin-top: 20px;
+}
+
+.product {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-name {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.product-price {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.total-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.total-amount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4CAF50;
+}

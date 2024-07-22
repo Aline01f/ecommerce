@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,88,150,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+
+header {
+  position: relative;
+  background-color: #409cc7;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+header .logo {
+  width: 200px;
+  height: 200px;
+  margin-left: 200px; /* Move a logo 20px para a esquerda */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Alinha os produtos ao centro */
+  gap: 20px; /* Espaçamento entre os produtos */
+  margin: 50px;
+}
+
+.product {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 25%; /* Define a largura dos produtos para ocupar 1/3 do container */
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box; /* Inclui padding e border na largura e altura total do elemento */
+}
+
+.product img {
+  width: 45%; /* Faz a imagem ocupar toda a largura do container */
+  height: 200px; /* Define uma altura fixa para as imagens */
+  object-fit: cover; /* Mantém a proporção da imagem, cortando se necessário */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product .price {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para centralizar a div cart-total */
+#cart-total {
+  text-align: center;
+  margin-top: 20px; /* Espaçamento superior para separar do conteúdo anterior */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cart-total h3 {
+  font-size: 24px;
+}
+
+
+.cart-icon-link {
+  font-size: 36px; /* Aumenta o tamanho do ícone do carrinho */
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px; /* Espaçamento entre o ícone do carrinho e o link de login */
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #409cc7;
+  transition: background-color 0.3s ease;
+}
+
+.cart-icon-link:hover {
+  background-color:#226174;
+}
+
+#totalAmount {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.login-link {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #fff; /* Adiciona uma borda branca */
+  background-color: #409cc7;
+  transition: background-color 0.3s ease;
+  margin-right:20px; /* Move o link de login 20px para a direita */
+}
+

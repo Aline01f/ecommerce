@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Carrinho</title>
+  <link rel="stylesheet" href="./carrinho.css">
+</head>
+</head>
+<body>
+  <header>
+    <h1>Meu Carrinho</h1>
+    <a href="./index.html"  class="return-link">Voltar para a Loja</a>
+  </header>
+
+  <div class="container" id="cart-items">
+    <!-- Itens do carrinho serão inseridos aqui dinamicamente -->
+  </div>
+
+  <div id="cart-total">
+    <h3>Total do Carrinho: <span id="totalAmount">R$ 0.00</span></h3>
+  </div>
+
+  <button onclick="finalizePurchase()">Finalizar Compra</button>
+
+  <script src="./script.js"></script>
+  <script>
+    window.onload = displayCartItems;
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmação de Compra</title>
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Confirmação de Compra</h1>
+    <a href="./index.html"  class="return-link">Voltar para a Loja</a>
+  </header>
+
+  <div class="container">
+    <h2>Obrigado pela sua compra!</h2>
+    <p>Seu pedido foi recebido com sucesso.</p>
+    <p>Detalhes do pedido:</p>
+    <div id="ordered-items" class="ordered-items">
+      <!-- Itens do pedido serão inseridos aqui dinamicamente -->
+    </div>
+    <p class="total-label">Total do Pedido: <span id="orderedTotal" class="total-amount">R$ 0.00</span></p>
+  </div>
+
+  <script src="./script.js"></script>
+  <script>
+    window.onload = displayOrderedItems;
+  </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 // Lista de produtos
 let products = [
     { id: 1, name: 'Camiseta Branca', price: 29.99, image: 'img/camisa branca.jpeg' },
-    { id: 2, name: 'Calça Jeans', price: 79.99, image: 'img/calça jeans.png' },
+    { id: 2, name: 'Calça Jeans', price: 79.99, image: 'img/calça jeans png' },
     { id: 3, name: 'Tênis Esportivo', price: 99.99, image: 'img/tenis.jpeg' },
     { id: 4, name: 'Mochila Preta', price: 49.99, image: 'img/mochila.jpg' },
     { id: 5, name: 'Bermuda', price: 89.99, image: 'img/bermuda.webp' },
